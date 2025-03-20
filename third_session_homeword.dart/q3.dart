@@ -11,7 +11,7 @@ void main() {
 
   while (true) {
     print(
-        "\n1 View Tasks\n2 Add Task\n3 Remove Task\n4 Mark as Completed\n5 Exit");
+        "\n1 View Tasks\n2 Add Task\n3 Remove Task\n4 Mark as Completed\n5. Exit");
     String? choice = stdin.readLineSync();
 
     if (choice == '1') {
